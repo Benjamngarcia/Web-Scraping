@@ -1,0 +1,5 @@
+Links = $x('//h2[not(@class)/a/@href')
+Titulo = $x('//div[@class="mb-auto"]//span/text()')
+Resumen = $x('//div[@class="lead"]/p/text()')
+Cuerpo = $x('//div[@class="html-content"]/p[not(@class)]/text()')
+
